@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: "stencil", serif;
+}
+
+h2 {
+     font-weight: normal;
+}
+
+.foto {
+    width: 300px;
+    height: auto;
+}
+
+.redirecionar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.imagens {  /*sobre a grade*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    align-items: center; 
+}
+
+.imagens img { /*sobre o tamanh das imgs*/
+    width: 100%;
+    height: auto;        
+    border-radius: 6px;
+}
+
+.imagens h2 {  /*faz o texto ficar no meio da grade*/
+    grid-column: 1 / -1;
+    margin: 20px 0;
+}
