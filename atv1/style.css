@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
 body {
     background-color: white;
     text-align: center;
 }
 
+body.pagina2 {
+    background-color: #bae6fd;
+}
+
+body.pagina3 {
+    background-color: palevioletred
+}
+
 h1 {
-    font-family: "stencil", serif;
+    font-family: "Saira Stencil One", sans-serif;
 }
 
 h2 {
