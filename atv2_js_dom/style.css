@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+body.pagina2 {
+    background-color: #bae6fd;
+}
+
+body.pagina3 {
+    background-color: palevioletred
+}
+
+h1 {
+    font-family: "Saira Stencil One", sans-serif;
+}
+
+h2 {
+     font-weight: normal;
+}
+
+.foto {
+    width: 300px;
+    height: auto;
+}
+
+.redirecionar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.imagens {  /*sobre a grade*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    align-items: center; 
+}
+
+.imagens img { /*sobre o tamanh das imgs*/
+    width: 100%;
+    height: auto;        
+    border-radius: 6px;
+}
+
+.imagens h2 {  /*faz o texto ficar no meio da grade*/
+    grid-column: 1 / -1;
+    margin: 20px 0;
+}
+
+
+/* Botao e mensagem adicionados com JavaScript */
+#botao-revelar {
+    padding: 10px 18px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#botao-revelar:hover {
+    background-color: #333;
+}
+
+#mensagem {
+    font-size: 20px;
+    font-weight: bold;
+}
